@@ -1,4 +1,9 @@
 {
+  "build": {
+    "env": {
+      "VITE_API_URL": "https://farm-099l.onrender.com/api"
+    }
+  },
   "routes": [
     {
       "handle": "filesystem"
