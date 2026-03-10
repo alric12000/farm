@@ -1,6 +1,7 @@
 // ── API Service for Ghordaura Krishi Farm ──────────────────────────
 
-const BASE_URL = (import.meta.env.VITE_API_URL as string) || 'http://localhost:3001/api';
+const BASE_URL = (import.meta.env.VITE_API_URL as string) || 
+  (import.meta.env.PROD ? 'https://farm-099l.onrender.com/api' : 'http://localhost:3001/api');
 const TOKEN_KEY = 'farm_token';
 
 // ── Types ────────────────────────────────────────────────────────
