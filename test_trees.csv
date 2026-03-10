@@ -1,0 +1,5 @@
+tree_no,avocado_type,planted_date,location,harvest_interval_days,last_harvested,notes
+AVO-006,Hass,2024-01-10,Block D - East,120,2025-12-01,Imported via CSV
+AVO-007,Fuerte,2024-03-15,Block D - West,100,2025-11-15,Young tree
+AVO-008,Reed,2023-06-20,Block E - North,150,,No harvest yet
+AVO-001,Hass,2023-03-15,Block A - North Slope,120,2025-12-01,Should be skipped - duplicate
